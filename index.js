@@ -128,15 +128,20 @@ Create a new array called carsForSale and insert 3 cars in it.
 Store in a variable totalCars the number of cars present in both carsForSale and carsForRent arrays.
 */
 
-carsForSale = [car4, car3, car1]
+carsForSale = [car4, car3, car5]
 let totalCars = {
     carsForRent: carsForRent.length,
     carsForSale: carsForSale.length,
 }
+console.log(totalCars)
 
 /* EXERCISE 13
 Print in the console the data from each car in the carsForSale array.
 */
 console.log(carsForSale[0])
 console.log(carsForSale[1])
-console.log(carsForSale(2))
+console.log(carsForSale[2])
+
+// for (let i = 0; i < carsForSale.length; i++){
+//   console.log(carsForSale[i]);
+// }
