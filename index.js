@@ -14,6 +14,7 @@ Create and array containing the first 5 positive numbers.
 */
 
 let numbers = [1, 2, 3, 4, 5]
+console.log(`This is an array of the first 5 positive numbers ${numbers}`)
 
 /* EXERCISE 2
 Create an object containing your name, surname, email address and age.
@@ -23,7 +24,7 @@ let me = {
     name: "Wako",
     surname: "Anindo",
     email: "wakoanindo@outlook.com",
-    age: 29
+    age: 29,
 }
 
 /* EXERCISE 3
@@ -31,12 +32,14 @@ Add to the previously created object a boolean value to represent whether you ha
 */
 
 me.drivingLisence = false
+console.log(me)
 
 /* EXERCISE 4
 Remove from the previously created object the age property.
 */
 
 delete me.age
+console.log(me)
 
 /* EXERCISE 5
 Create a second object with name, surname, email address and verify that this object has a different email address than the previous one.
@@ -47,7 +50,7 @@ secondObject = {
     surname: "Uzumaki",
     email: "hokage@konohamail.com",
 }
-console.log("The email is equal to the previous one: ", me.email !== secondObject.email)
+console.log(`Is Naruto's email different from mine: ${me.email !== secondObject.email}`)
 
 /* EXERCISE 6
 You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
@@ -57,7 +60,7 @@ Write an algorithm that calculates the total cost to charge the user with.
 
 let totalShoppingCart = 100
 if (totalShoppingCart <= 50){
-    totalShoppingCart += 10 // totalShoppingCart = totalShoppingCart + 10
+    totalShoppingCart += 10 
 }
     
 /* EXERCISE 7
